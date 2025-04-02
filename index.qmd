@@ -4,7 +4,7 @@ project:
   output-dir: docs
 
 website:
-  title: "QR Indirect Assessment
+  title: QR Indirect Assessment
   navbar:
     left:
       - href: index.qmd
@@ -12,16 +12,20 @@ website:
       - about.qmd
       - another-page.qmd
 
-format:
+  format:
   html:
-    theme: cosmo
+    theme: lumen
     css: styles.css---
 ---
 
-This is a Quarto website.
+dsadas ![](images/SCR-20250329-lmgj.png)
+
+![](images/SCR-20250329-llmi.png)
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 1 + 1
 ```
+
+git remote add origin git\@github.com:ttezcann/QR_assessment.git
