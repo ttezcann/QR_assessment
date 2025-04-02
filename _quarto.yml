@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "QR Assessment"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: lumen
+    css: styles.css
+
+editor: visual
+
