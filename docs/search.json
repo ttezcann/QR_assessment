@@ -91,10 +91,17 @@
     "text": "4.2 Table 11. Linear Regression Model Predicting Core Quantitative Reasoning Improvement\n\n\nLinear Regression Model Predicting QR ImprovementPredictorEstimateSE95% CIp-valueIntercept0.01(0.03)[-0.04, 0.06]0.717QR Core Skills0.55***(0.05)[0.46, 0.65]0.000Confidence-0.03(0.04)[-0.10, 0.05]0.467QR Engagement0.29***(0.04)[0.21, 0.37]0.000SE = Standard Error, CI = Confidence Interval† p &lt; .10, * p &lt; .05, ** p &lt; .01, *** p &lt; .001R² = 0.430; Adjusted R² = 0.426\n\n\nA linear regression was conducted to identify the factors that influence students’ self-reported improvement. For this analysis, composite indexes were used.\nThe results reveal that quantitative reasoning core skills increases the improvement score by 0.55 points on a 1-to-4 scale. Similarly, qualitative reasoning engagement increases the score by 0.29 points. However, confidence has no effect on the improvement score. The model explains approximately 43% of the variance in “Coherence/Purpose” (R² = 0.430)."
   },
   {
+    "objectID": "dddddd.html",
+    "href": "dddddd.html",
+    "title": "dddddd",
+    "section": "",
+    "text": "sdsadas dsadsadas"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "QR Assessment Website",
     "section": "",
-    "text": "dsadas \n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\ngit remote add origin git@github.com:ttezcann/QR_assessment.git"
+    "text": "dsadas \n\nTo learn more abdout Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\ngit remote add origin git@github.com:ttezcann/QR_assessment.git"
   }
 ]

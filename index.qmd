@@ -10,19 +10,20 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - another-page.qmd
-
+      - dddddd.qmd
+      - href: standard.qmd
+        text: Standard Report
   format:
   html:
     theme: lumen
-    css: styles.css---
+    css: styles.css
 ---
 
 dsadas ![](images/SCR-20250329-lmgj.png)
 
 ![](images/SCR-20250329-llmi.png)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+To learn more abdout Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 1 + 1
