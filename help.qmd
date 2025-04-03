@@ -2,3 +2,7 @@
 title: "Help"
 editor: visual
 ---
+
+# Do you need help?
+
+Email to [ttezcan\@csumb.edu](ttezcan@csumb.edu)

@@ -12,6 +12,169 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Home\nThis site provides guidance on a survey tool to indirectly assess Quantitative Reasoning.\nThere are four steps:\n\nCollect data\nCreate an RStudio Cloud account\nDownload/upload data and other files to RStudio\nOrganize the content and render\n\nAfter completing these steps, RStudio (Quarto) will generate the report in both HTML and Word formats."
+  },
+  {
+    "objectID": "word_format_short.html",
+    "href": "word_format_short.html",
+    "title": "Word format",
+    "section": "",
+    "text": "📄 Download the Word Version (Short)",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (Word format)"
+    ]
+  },
+  {
+    "objectID": "step_2.html",
+    "href": "step_2.html",
+    "title": "Step 2: Create an RStudio Cloud account",
+    "section": "",
+    "text": "The page will show how to create a RStudio Cloud account. You will be able to use this software on your browser.\n\nGo to https://posit.cloud/plans/free (make sure you choose “free account”).\nClick on “Sign up.”\nPut a password (at least 10 characters, with upper and lower case letters, a number, and a special character).\nType your first and last name.\nWhen you click “Sign up” you will receive an email for verification.\nGo to your email inbox and click “Verify.”\nYou will be directed to Go to https://posit.cloud. If not, click on the link.\nClick on “New project” ➜ “New RStudio Project.”\nWait for a minute or so until you see the screen below.\nClick on “Untitled Project” (see highlighted part # 1) and type “Indirect Assessment in QR.”",
+    "crumbs": [
+      "Home",
+      "Steps",
+      "Step 2: Create an RStudio Cloud account"
+    ]
+  },
+  {
+    "objectID": "short.html",
+    "href": "short.html",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "",
+    "text": "A survey, Indirect Assessment in Quantitative Reasoning, was used to complement the Quantitative Reasoning Rubric for direct assessment.\n\n\n\nThe survey was distributed through Google Forms to assess quantitative reasoning skills and engagement using the “Short Form.”\nThe data was collected during the last two weeks of the Spring 2024 semester, resulting in 469 complete student responses.\n\n\n\nVariable names, full wording of the questions, short labels used in analyses, and the response sets are as follows.\n\n\nVariable Name[Short label] Full Wording of the Question and the Response Setq1_methodology[Methodology] Throughout this course, how often have you done each of the following?... Describe the methods that you chose to solve a quantitative problem and why they were appropriate.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q2_calculation[Calculation]... Carried out calculations, either by hand or using software.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q3_visual_representation[Visual Representation]... Created a visual representation of numerical information, such as a graph, table, chart, or diagram.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q4_interpretation[Interpretation]... Described numerical information (numbers, graphs, statistics, etc.) by writing in words.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q5_evaluation[Evaluation]... Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q6_coherence_purpose[Coherence/Purpose]... Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q7_reasonableness[Reasonableness]... Decided when a solution or inference was reasonable or not reasonable in the context of a problem.",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "short.html#background",
+    "href": "short.html#background",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "",
+    "text": "A survey, Indirect Assessment in Quantitative Reasoning, was used to complement the Quantitative Reasoning Rubric for direct assessment.",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "short.html#method-and-sample",
+    "href": "short.html#method-and-sample",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "",
+    "text": "The survey was distributed through Google Forms to assess quantitative reasoning skills and engagement using the “Short Form.”\nThe data was collected during the last two weeks of the Spring 2024 semester, resulting in 469 complete student responses.",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "short.html#variables",
+    "href": "short.html#variables",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "",
+    "text": "Variable names, full wording of the questions, short labels used in analyses, and the response sets are as follows.\n\n\nVariable Name[Short label] Full Wording of the Question and the Response Setq1_methodology[Methodology] Throughout this course, how often have you done each of the following?... Describe the methods that you chose to solve a quantitative problem and why they were appropriate.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q2_calculation[Calculation]... Carried out calculations, either by hand or using software.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q3_visual_representation[Visual Representation]... Created a visual representation of numerical information, such as a graph, table, chart, or diagram.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q4_interpretation[Interpretation]... Described numerical information (numbers, graphs, statistics, etc.) by writing in words.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q5_evaluation[Evaluation]... Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q6_coherence_purpose[Coherence/Purpose]... Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q7_reasonableness[Reasonableness]... Decided when a solution or inference was reasonable or not reasonable in the context of a problem.",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "short.html#quantitative-reasoning-skills-summary",
+    "href": "short.html#quantitative-reasoning-skills-summary",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "2.1 Quantitative Reasoning Skills: Summary",
+    "text": "2.1 Quantitative Reasoning Skills: Summary\n\n2.1.1 Table 1. Frequencies of Core Quantitative Reasoning Skills\n\n\nCore QR Skills - ItemsN = 4691[Methodology] Described the methods used to solve a quantitative problem and why they were appropriate    Never19 (4.1%)    Infrequently57 (12%)    Sometimes202 (43%)    Frequently188 (40%)[Calculation] Carried out calculations, either by hand or using software    Never9 (1.9%)    Infrequently30 (6.4%)    Sometimes125 (27%)    Frequently304 (65%)[Visual Representation] Created a visual representation of numerical information (graph, table, chart, etc.)    Never14 (3.0%)    Infrequently33 (7.0%)    Sometimes157 (33%)    Frequently265 (57%)[Interpretation] Described numerical information (numbers, graphs, statistics, etc.) by writing in words    Never12 (2.6%)    Infrequently51 (11%)    Sometimes151 (32%)    Frequently252 (54%)[Evaluation] Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)    Never10 (2.1%)    Infrequently42 (9.0%)    Sometimes175 (38%)    Frequently239 (51%)[Coherence/Purpose] Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence    Never27 (5.8%)    Infrequently89 (19%)    Sometimes190 (41%)    Frequently159 (34%)[Reasonableness] Decided when a solution or inference was reasonable or not reasonable in the context of a problem    Never17 (3.6%)    Infrequently53 (11%)    Sometimes219 (47%)    Frequently179 (38%)1n (%)\n\n\nTable 1 presents the frequencies of student engagement in various quantitative activities within the class, measured through seven different questions.\n“Carried out calculations, either by hand or using software,” shows that a significant majority of students, 65%, frequently engage in calculations. “Created a visual representation, like a graph, chart, or diagram,” indicates that 56.5% of students frequently create visual representations. “Interpreted numerical information by writing in words,” shows 54.1% of students frequently interpret numerical data in written form.\nThe last three items received the least “frequently” responses display more advanced quantitative reasoning and analysis.”Described the methods used to solve a quantitative problem and why they were appropriate” shows 40.3% of students frequently describe methodology. “Decided when a solution or inference was reasonable or not reasonable in the context of a problem” indicates that 38.2% of students frequently assess reasonableness. Finally, the item “Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence” has the lowest “frequently” response at 34.2%, which is less common among students.\n\n\n2.1.2 Figure 1. Frequencies of Core Quantitative Reasoning Skills\n\n\n\n\n\nNote 1: Alternative of the above table.Note 2: The items are sorted by the responses that received the most ‘frequently’ responses.\n\n\n\n\n\n\n2.1.3 Table 2. Descriptive Statistics of Core Quantitative Reasoning Skills\n\n\nCore QR Skills - ItemsN = 4691[Calculation] Carried out calculations, either by hand or using software3.55 (0.70)[Visual Representation] Created a visual representation of numerical information (graph, table, chart, etc.)3.43 (0.75)[Interpretation] Described numerical information (numbers, graphs, statistics, etc.) by writing in words3.38 (0.78)[Evaluation] Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)3.38 (0.74)[Methodology] Described the methods used to solve a quantitative problem and why they were appropriate3.20 (0.81)[Reasonableness] Decided when a solution or inference was reasonable or not reasonable in the context of a problem3.20 (0.78)[Coherence/Purpose] Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence3.03 (0.88)1Mean (SD)\n\n\nTable 2 presents the descriptive statistics of core quantitative reasoning skills. The highest mean score is for “Calculation” at 3.55 out of four. “Visual representation” has a mean score of 3.43. “Interpretation” and “Evaluation” both have a mean score of 3.38. Students describe numerical information in written form and reach conclusions based on analysis at similar frequencies.\n“Reasonableness” and “Methodology” both score 3.20. Students decide when solutions are reasonable in context and describe methods used to solve quantitative problems at moderate frequencies. “Coherence/Purpose,” which involves constructing coherent arguments using multiple quantitative conclusions, has a mean score of 3.03. Students construct coherent arguments using several conclusions based on quantitative evidence less frequently than other skills.\nThe standard deviations range from 0.70 to 0.88, with “Coherence/Purpose” showing the highest variability among students (SD = 0.88). In contrast, “Calculation” (SD = 0.70) and “Visual Representation” (SD = 0.75) show more consistent performance across students.\n\n\n2.1.4 Figure 2. Descriptive Statistics of Quantitative Reasoning Skills\n\n\n\n\n\nNote: Alternative of the above table.",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "short.html#figure-3.-correlation-matrix-of-all-variables",
+    "href": "short.html#figure-3.-correlation-matrix-of-all-variables",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "3.1 Figure 3. Correlation Matrix of All Variables",
+    "text": "3.1 Figure 3. Correlation Matrix of All Variables\n\n\n\n\n\nNote: Bottom-left cells show scatterplots; diagonal cells show variable distributions. Top-right values are Pearson r coefficients. Correlation strength: weak (|r| &lt; 0.3), moderate (0.3 &lt; |r| &lt; 0.5), strong (|r| &gt; 0.5). * p &lt; .05, ** p &lt; .01, *** p &lt; .001.\n\n\n\n\nFigure 9 presents the correlation matrix of all variables.\nThe strongest correlations within the core quantitative reasoning skills are observed between:\n\nCoherence/Purpose and Reasonableness (r = 0.68, p&lt;0.001)\nEvaluation and Interpretation (r = 0.64, p&lt;0.001)\nInterpretation and Visual Representation (r = 0.61, p&lt;0.001)\n\nThese strong correlations may suggest that students who build coherent arguments backed by quantitative evidence also tend to judge the reasonableness of solutions. Students with strong evaluation skills typically have strong interpretation abilities, and those who interpret numerical information also create visual representations of data.",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "short.html#figure-4.-correlogram-of-all-variables",
+    "href": "short.html#figure-4.-correlogram-of-all-variables",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "3.2 Figure 4. Correlogram of All Variables",
+    "text": "3.2 Figure 4. Correlogram of All Variables\n\n\n\n\n\nNote 1: Alternative of the above graph.Note 2: Cells represent the correlation coefficient between two variables. Blue shows positive correlations, red shows negative correlations, and circle size reflects correlation magnitude. Correlation strength: weak (|r| &lt; 0.3), moderate (0.3 &lt; |r| &lt; 0.5), strong (|r| &gt; 0.5). Insignificant correlations are invisible (p &gt; .05).",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "short.html#table-3.-linear-regression-model-predicting-coherencepurpose",
+    "href": "short.html#table-3.-linear-regression-model-predicting-coherencepurpose",
+    "title": "Quantitative Reasoning Indirect Assessment Report",
+    "section": "4.1 Table 3. Linear Regression Model Predicting Coherence/Purpose",
+    "text": "4.1 Table 3. Linear Regression Model Predicting Coherence/Purpose\n\n\nLinear Regression Model Predicting Coherence/PurposePredictorEstimateSE95% CIp-valueIntercept-0.01(0.03)[-0.06, 0.05]0.837Methodology0.21***(0.05)[0.11, 0.30]0.000Calculation-0.11†(0.06)[-0.22, 0.00]0.053Visual Representation-0.05(0.05)[-0.16, 0.05]0.310Interpretation0.07(0.06)[-0.04, 0.18]0.209Evaluation0.24***(0.06)[0.13, 0.35]0.000Reasonableness0.53***(0.05)[0.43, 0.63]0.000SE = Standard Error, CI = Confidence Interval† p &lt; .10, * p &lt; .05, ** p &lt; .01, *** p &lt; .001R² = 0.511; Adjusted R² = 0.505\n\n\nA linear regression was conducted to identify the factors that influence students’ ability to construct a single, coherent argument using several conclusions based on quantitative evidence—referred to as “Coherence/Purpose.” This item received the lowest “frequently” responses at 34.2%, as noted in prior sections. Note that all variables were mean-centered prior to analyses to minimize multicollinearity.\nThe results reveal that four skills significantly influence the ability to construct coherent quantitative arguments. Specifically, the skill of describing the methods used to solve a quantitative problem and justifying their appropriateness increases the “Coherence/Purpose” score by 0.21 points on a 1-to-4 scale. Similarly, the ability to reach conclusions based on one’s own analysis of numerical information, such as numbers, graphs, or statistics, increases the score by 0.24 points. The most substantial impact arises from deciding when a solution or inference is reasonable within a problem’s context, which increases the Coherence/Purpose score by 0.53 points. Finally, “Carried out calculations, either by hand or using software” shows a negative effect, decreasing the Coherence/Purpose score by 0.11 points. This effect is significant at a marginal level (p &lt; 0.10), a less reliable but noteworthy influence that warrants further exploration. The model explains approximately 51.1% of the variance in “Coherence/Purpose” (R² = 0.511).",
+    "crumbs": [
+      "Home",
+      "Report",
+      "Short (HTML format)"
+    ]
+  },
+  {
+    "objectID": "step_4.html",
+    "href": "step_4.html",
+    "title": "Step 4: Organize the content and render",
+    "section": "",
+    "text": "Render the content and download the Word document\n\nClick the arrow next to the “Render” ➜ “Render MS Word”\n\n\n\nClick “Download file”\n\nDelete any tables/figures you don’t want to use, and revise the interpretations accordingly.\nRender the content in HTML\nAlternatively, you could create an HTML document by making changes in the .qmd file.\n\nClick “Settings” ➜ “Preview in Viewer Pane.”\n\n\n\n\n\nMake changes in the .qmd file, such as deleting unwanted tables/graphs and adding your interpretations.\nClick the arrow next to the “Render” ➜ “Render HTML”\n\nYou will see the content under the “Viewer” tab. If you want to view the HTML report in your browser, click “Show in new window.”",
+    "crumbs": [
+      "Home",
+      "Steps",
+      "Step 4: Organize the content and render"
+    ]
+  },
+  {
+    "objectID": "step_1.html",
+    "href": "step_1.html",
+    "title": "Step 1: Collect data",
+    "section": "",
+    "text": "Short form (7 questions)\nThis survey directly aligns with CSUMB’s seven QR areas and enables:\n\nReporting of both direct assessment scores (student proficiency) and indirect survey results (frequency of skill practice);\nComprehensive insight into students’ QR experiences.\n\nShort Form: Make a copy of the survey\n\n\nStandard Form (16 questions)\nThe inclusion of the additional questions in this survey is ideal for:\n1.  Evaluating QR skills across different content areas or ULOs;\n2.  Exploring how students use QR skills in practical contexts.\nStandard Form: Make a copy of the survey",
+    "crumbs": [
+      "Home",
+      "Steps",
+      "Step 1: Collect data"
+    ]
+  },
+  {
+    "objectID": "step_3.html",
+    "href": "step_3.html",
+    "title": "Step 3: Download/upload data and other files to RStudio",
+    "section": "",
+    "text": "Download the data file\n\nAfter the data collection process is completed, your data is ready to upload.\nGo to the “Responses” tab of the Google Form.\nClick the three dots (next to “Link to Sheets”) ➜ “Download responses (.csv)”\n\nThe file will be downloaded as a .zip folder.\nDouble-click that folder to extract the file.\nRename the file name to “df.csv” (Make sure it’s not “df.csv.csv”).\n\n\n\n\nDownload the Quarto file\nClick to download the Quarto file:\n\nShort form Quarto file\n\nOR\n\nStandard form Quarto file\n\n\n\nDownload the Word Template file\nClick to download the Word Template file:\nQR_Report_Template.docx\n\n\nUpload these files to RStudio\n\nUpload these three files to RStudio one by one\n\n\n\nYou should see three files under the “Files” tab.\nClick on “standard.qmd” or “short.qmd” (the version you use):\n\n\n\nClicking on the .qmd file will open it on RStudio.\nClick “Run” ➜ “Run All.\n\n\n\nThis process will install all the packages. For the first time the codes are run, this process may take 15-20 minutes or shorter depending on your internet connection. You will see a STOP sign and codes are running in the console. You should wait until the “STOP” sign in the console disappears and no more code is running in the console.\n\n\n\nDuring this process, if you see the pop-up window above (Updating Loaded Packages), click “No” every single time.",
+    "crumbs": [
+      "Home",
+      "Steps",
+      "Step 3: Download/upload data and other files to RStudio"
+    ]
+  },
+  {
     "objectID": "standard.html",
     "href": "standard.html",
     "title": "Quantitative Reasoning Indirect Assessment Report",
@@ -156,173 +319,10 @@
     ]
   },
   {
-    "objectID": "step_3.html",
-    "href": "step_3.html",
-    "title": "Step 3: Download/upload data and other files to RStudio",
+    "objectID": "help.html",
+    "href": "help.html",
+    "title": "Help",
     "section": "",
-    "text": "Download the data file\n\nAfter the data collection process is completed, your data is ready to upload.\nGo to the “Responses” tab of the Google Form.\nClick the three dots (next to “Link to Sheets”) ➜ “Download responses (.csv)”\n\nThe file will be downloaded as a .zip folder.\nDouble-click that folder to extract the file.\nRename the file name to “df.csv” (Make sure it’s not “df.csv.csv”).\n\n\n\n\nDownload the Quarto file\nClick to download the Quarto file:\n\nShort form Quarto file\n\nOR\n\nStandard form Quarto file\n\n\n\nDownload the Word Template file\nClick to download the Word Template file:\nQR_Report_Template.docx\n\n\nUpload these files to RStudio\n\nUpload these three files to RStudio one by one\n\n\n\nYou should see three files under the “Files” tab.\nClick on “standard.qmd” or “short.qmd” (the version you use):\n\n\n\nClicking on the .qmd file will open it on RStudio.\nClick “Run” ➜ “Run All.\n\n\n\nThis process will install all the packages. For the first time the codes are run, this process may take 15-20 minutes or shorter depending on your internet connection. You will see a STOP sign and codes are running in the console. You should wait until the “STOP” sign in the console disappears and no more code is running in the console.\n\n\n\nDuring this process, if you see the pop-up window above (Updating Loaded Packages), click “No” every single time.",
-    "crumbs": [
-      "Home",
-      "Steps",
-      "Step 3: Download/upload data and other files to RStudio"
-    ]
-  },
-  {
-    "objectID": "step_1.html",
-    "href": "step_1.html",
-    "title": "Step 1: Collect data",
-    "section": "",
-    "text": "Short form (7 questions)\nThis survey directly aligns with CSUMB’s seven QR areas and enables:\n\nReporting of both direct assessment scores (student proficiency) and indirect survey results (frequency of skill practice);\nComprehensive insight into students’ QR experiences.\n\nShort Form: Make a copy of the survey\n\n\nStandard Form (16 questions)\nThe inclusion of the additional questions in this survey is ideal for:\n1.  Evaluating QR skills across different content areas or ULOs;\n2.  Exploring how students use QR skills in practical contexts.\nStandard Form: Make a copy of the survey",
-    "crumbs": [
-      "Home",
-      "Steps",
-      "Step 1: Collect data"
-    ]
-  },
-  {
-    "objectID": "step_4.html",
-    "href": "step_4.html",
-    "title": "Step 4: Organize the content and render",
-    "section": "",
-    "text": "Render the content and download the Word document\n\nClick the arrow next to the “Render” ➜ “Render MS Word”\n\n\n\nClick “Download file”\n\nDelete any tables/figures you don’t want to use, and revise the interpretations accordingly.\nRender the content in HTML\nAlternatively, you could create an HTML document by making changes in the .qmd file.\n\nClick “Settings” ➜ “Preview in Viewer Pane.”\n\n\n\n\n\nMake changes in the .qmd file, such as deleting unwanted tables/graphs and adding your interpretations.\nClick the arrow next to the “Render” ➜ “Render HTML”\n\nYou will see the content under the “Viewer” tab. If you want to view the HTML report in your browser, click “Show in new window.”",
-    "crumbs": [
-      "Home",
-      "Steps",
-      "Step 4: Organize the content and render"
-    ]
-  },
-  {
-    "objectID": "short.html",
-    "href": "short.html",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "",
-    "text": "A survey, Indirect Assessment in Quantitative Reasoning, was used to complement the Quantitative Reasoning Rubric for direct assessment.\n\n\n\nThe survey was distributed through Google Forms to assess quantitative reasoning skills and engagement using the “Short Form.”\nThe data was collected during the last two weeks of the Spring 2024 semester, resulting in 469 complete student responses.\n\n\n\nVariable names, full wording of the questions, short labels used in analyses, and the response sets are as follows.\n\n\nVariable Name[Short label] Full Wording of the Question and the Response Setq1_methodology[Methodology] Throughout this course, how often have you done each of the following?... Describe the methods that you chose to solve a quantitative problem and why they were appropriate.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q2_calculation[Calculation]... Carried out calculations, either by hand or using software.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q3_visual_representation[Visual Representation]... Created a visual representation of numerical information, such as a graph, table, chart, or diagram.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q4_interpretation[Interpretation]... Described numerical information (numbers, graphs, statistics, etc.) by writing in words.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q5_evaluation[Evaluation]... Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q6_coherence_purpose[Coherence/Purpose]... Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q7_reasonableness[Reasonableness]... Decided when a solution or inference was reasonable or not reasonable in the context of a problem.",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "short.html#background",
-    "href": "short.html#background",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "",
-    "text": "A survey, Indirect Assessment in Quantitative Reasoning, was used to complement the Quantitative Reasoning Rubric for direct assessment.",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "short.html#method-and-sample",
-    "href": "short.html#method-and-sample",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "",
-    "text": "The survey was distributed through Google Forms to assess quantitative reasoning skills and engagement using the “Short Form.”\nThe data was collected during the last two weeks of the Spring 2024 semester, resulting in 469 complete student responses.",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "short.html#variables",
-    "href": "short.html#variables",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "",
-    "text": "Variable names, full wording of the questions, short labels used in analyses, and the response sets are as follows.\n\n\nVariable Name[Short label] Full Wording of the Question and the Response Setq1_methodology[Methodology] Throughout this course, how often have you done each of the following?... Describe the methods that you chose to solve a quantitative problem and why they were appropriate.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q2_calculation[Calculation]... Carried out calculations, either by hand or using software.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q3_visual_representation[Visual Representation]... Created a visual representation of numerical information, such as a graph, table, chart, or diagram.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q4_interpretation[Interpretation]... Described numerical information (numbers, graphs, statistics, etc.) by writing in words.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q5_evaluation[Evaluation]... Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q6_coherence_purpose[Coherence/Purpose]... Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence.    Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)q7_reasonableness[Reasonableness]... Decided when a solution or inference was reasonable or not reasonable in the context of a problem.",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "short.html#quantitative-reasoning-skills-summary",
-    "href": "short.html#quantitative-reasoning-skills-summary",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "2.1 Quantitative Reasoning Skills: Summary",
-    "text": "2.1 Quantitative Reasoning Skills: Summary\n\n2.1.1 Table 1. Frequencies of Core Quantitative Reasoning Skills\n\n\nCore QR Skills - ItemsN = 4691[Methodology] Described the methods used to solve a quantitative problem and why they were appropriate    Never19 (4.1%)    Infrequently57 (12%)    Sometimes202 (43%)    Frequently188 (40%)[Calculation] Carried out calculations, either by hand or using software    Never9 (1.9%)    Infrequently30 (6.4%)    Sometimes125 (27%)    Frequently304 (65%)[Visual Representation] Created a visual representation of numerical information (graph, table, chart, etc.)    Never14 (3.0%)    Infrequently33 (7.0%)    Sometimes157 (33%)    Frequently265 (57%)[Interpretation] Described numerical information (numbers, graphs, statistics, etc.) by writing in words    Never12 (2.6%)    Infrequently51 (11%)    Sometimes151 (32%)    Frequently252 (54%)[Evaluation] Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)    Never10 (2.1%)    Infrequently42 (9.0%)    Sometimes175 (38%)    Frequently239 (51%)[Coherence/Purpose] Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence    Never27 (5.8%)    Infrequently89 (19%)    Sometimes190 (41%)    Frequently159 (34%)[Reasonableness] Decided when a solution or inference was reasonable or not reasonable in the context of a problem    Never17 (3.6%)    Infrequently53 (11%)    Sometimes219 (47%)    Frequently179 (38%)1n (%)\n\n\nTable 1 presents the frequencies of student engagement in various quantitative activities within the class, measured through seven different questions.\n“Carried out calculations, either by hand or using software,” shows that a significant majority of students, 65%, frequently engage in calculations. “Created a visual representation, like a graph, chart, or diagram,” indicates that 56.5% of students frequently create visual representations. “Interpreted numerical information by writing in words,” shows 54.1% of students frequently interpret numerical data in written form.\nThe last three items received the least “frequently” responses display more advanced quantitative reasoning and analysis.”Described the methods used to solve a quantitative problem and why they were appropriate” shows 40.3% of students frequently describe methodology. “Decided when a solution or inference was reasonable or not reasonable in the context of a problem” indicates that 38.2% of students frequently assess reasonableness. Finally, the item “Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence” has the lowest “frequently” response at 34.2%, which is less common among students.\n\n\n2.1.2 Figure 1. Frequencies of Core Quantitative Reasoning Skills\n\n\n\n\n\nNote 1: Alternative of the above table.Note 2: The items are sorted by the responses that received the most ‘frequently’ responses.\n\n\n\n\n\n\n2.1.3 Table 2. Descriptive Statistics of Core Quantitative Reasoning Skills\n\n\nCore QR Skills - ItemsN = 4691[Calculation] Carried out calculations, either by hand or using software3.55 (0.70)[Visual Representation] Created a visual representation of numerical information (graph, table, chart, etc.)3.43 (0.75)[Interpretation] Described numerical information (numbers, graphs, statistics, etc.) by writing in words3.38 (0.78)[Evaluation] Reached conclusions based on your own analysis of numerical information (numbers, graphs, statistics, etc.)3.38 (0.74)[Methodology] Described the methods used to solve a quantitative problem and why they were appropriate3.20 (0.81)[Reasonableness] Decided when a solution or inference was reasonable or not reasonable in the context of a problem3.20 (0.78)[Coherence/Purpose] Constructed a single, coherent argument using several conclusions that were each based on quantitative evidence3.03 (0.88)1Mean (SD)\n\n\nTable 2 presents the descriptive statistics of core quantitative reasoning skills. The highest mean score is for “Calculation” at 3.55 out of four. “Visual representation” has a mean score of 3.43. “Interpretation” and “Evaluation” both have a mean score of 3.38. Students describe numerical information in written form and reach conclusions based on analysis at similar frequencies.\n“Reasonableness” and “Methodology” both score 3.20. Students decide when solutions are reasonable in context and describe methods used to solve quantitative problems at moderate frequencies. “Coherence/Purpose,” which involves constructing coherent arguments using multiple quantitative conclusions, has a mean score of 3.03. Students construct coherent arguments using several conclusions based on quantitative evidence less frequently than other skills.\nThe standard deviations range from 0.70 to 0.88, with “Coherence/Purpose” showing the highest variability among students (SD = 0.88). In contrast, “Calculation” (SD = 0.70) and “Visual Representation” (SD = 0.75) show more consistent performance across students.\n\n\n2.1.4 Figure 2. Descriptive Statistics of Quantitative Reasoning Skills\n\n\n\n\n\nNote: Alternative of the above table.",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "short.html#figure-3.-correlation-matrix-of-all-variables",
-    "href": "short.html#figure-3.-correlation-matrix-of-all-variables",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "3.1 Figure 3. Correlation Matrix of All Variables",
-    "text": "3.1 Figure 3. Correlation Matrix of All Variables\n\n\n\n\n\nNote: Bottom-left cells show scatterplots; diagonal cells show variable distributions. Top-right values are Pearson r coefficients. Correlation strength: weak (|r| &lt; 0.3), moderate (0.3 &lt; |r| &lt; 0.5), strong (|r| &gt; 0.5). * p &lt; .05, ** p &lt; .01, *** p &lt; .001.\n\n\n\n\nFigure 9 presents the correlation matrix of all variables.\nThe strongest correlations within the core quantitative reasoning skills are observed between:\n\nCoherence/Purpose and Reasonableness (r = 0.68, p&lt;0.001)\nEvaluation and Interpretation (r = 0.64, p&lt;0.001)\nInterpretation and Visual Representation (r = 0.61, p&lt;0.001)\n\nThese strong correlations may suggest that students who build coherent arguments backed by quantitative evidence also tend to judge the reasonableness of solutions. Students with strong evaluation skills typically have strong interpretation abilities, and those who interpret numerical information also create visual representations of data.",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "short.html#figure-4.-correlogram-of-all-variables",
-    "href": "short.html#figure-4.-correlogram-of-all-variables",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "3.2 Figure 4. Correlogram of All Variables",
-    "text": "3.2 Figure 4. Correlogram of All Variables\n\n\n\n\n\nNote 1: Alternative of the above graph.Note 2: Cells represent the correlation coefficient between two variables. Blue shows positive correlations, red shows negative correlations, and circle size reflects correlation magnitude. Correlation strength: weak (|r| &lt; 0.3), moderate (0.3 &lt; |r| &lt; 0.5), strong (|r| &gt; 0.5). Insignificant correlations are invisible (p &gt; .05).",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "short.html#table-3.-linear-regression-model-predicting-coherencepurpose",
-    "href": "short.html#table-3.-linear-regression-model-predicting-coherencepurpose",
-    "title": "Quantitative Reasoning Indirect Assessment Report",
-    "section": "4.1 Table 3. Linear Regression Model Predicting Coherence/Purpose",
-    "text": "4.1 Table 3. Linear Regression Model Predicting Coherence/Purpose\n\n\nLinear Regression Model Predicting Coherence/PurposePredictorEstimateSE95% CIp-valueIntercept-0.01(0.03)[-0.06, 0.05]0.837Methodology0.21***(0.05)[0.11, 0.30]0.000Calculation-0.11†(0.06)[-0.22, 0.00]0.053Visual Representation-0.05(0.05)[-0.16, 0.05]0.310Interpretation0.07(0.06)[-0.04, 0.18]0.209Evaluation0.24***(0.06)[0.13, 0.35]0.000Reasonableness0.53***(0.05)[0.43, 0.63]0.000SE = Standard Error, CI = Confidence Interval† p &lt; .10, * p &lt; .05, ** p &lt; .01, *** p &lt; .001R² = 0.511; Adjusted R² = 0.505\n\n\nA linear regression was conducted to identify the factors that influence students’ ability to construct a single, coherent argument using several conclusions based on quantitative evidence—referred to as “Coherence/Purpose.” This item received the lowest “frequently” responses at 34.2%, as noted in prior sections. Note that all variables were mean-centered prior to analyses to minimize multicollinearity.\nThe results reveal that four skills significantly influence the ability to construct coherent quantitative arguments. Specifically, the skill of describing the methods used to solve a quantitative problem and justifying their appropriateness increases the “Coherence/Purpose” score by 0.21 points on a 1-to-4 scale. Similarly, the ability to reach conclusions based on one’s own analysis of numerical information, such as numbers, graphs, or statistics, increases the score by 0.24 points. The most substantial impact arises from deciding when a solution or inference is reasonable within a problem’s context, which increases the Coherence/Purpose score by 0.53 points. Finally, “Carried out calculations, either by hand or using software” shows a negative effect, decreasing the Coherence/Purpose score by 0.11 points. This effect is significant at a marginal level (p &lt; 0.10), a less reliable but noteworthy influence that warrants further exploration. The model explains approximately 51.1% of the variance in “Coherence/Purpose” (R² = 0.511).",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (HTML format)"
-    ]
-  },
-  {
-    "objectID": "step_2.html",
-    "href": "step_2.html",
-    "title": "Step 2: Create an RStudio Cloud account",
-    "section": "",
-    "text": "The page will show how to create a RStudio Cloud account. You will be able to use this software on your browser.\n\nGo to https://posit.cloud/plans/free (make sure you choose “free account”).\nClick on “Sign up.”\nPut a password (at least 10 characters, with upper and lower case letters, a number, and a special character).\nType your first and last name.\nWhen you click “Sign up” you will receive an email for verification.\nGo to your email inbox and click “Verify.”\nYou will be directed to Go to https://posit.cloud. If not, click on the link.\nClick on “New project” ➜ “New RStudio Project.”\nWait for a minute or so until you see the screen below.\nClick on “Untitled Project” (see highlighted part # 1) and type “Indirect Assessment in QR.”",
-    "crumbs": [
-      "Home",
-      "Steps",
-      "Step 2: Create an RStudio Cloud account"
-    ]
-  },
-  {
-    "objectID": "word_format_short.html",
-    "href": "word_format_short.html",
-    "title": "Word format",
-    "section": "",
-    "text": "📄 Download the Word Version (Short)",
-    "crumbs": [
-      "Home",
-      "Report",
-      "Short (Word format)"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Home\nThis site provides guidance on a survey tool to indirectly assess Quantitative Reasoning.\nThere are four steps:\n\nCollect data\nCreate an RStudio Cloud account\nDownload/upload data and other files to RStudio\nOrganize the content and render\n\nAfter completing these steps, RStudio (Quarto) will generate the report in both HTML and Word formats."
-  },
-  {
-    "objectID": "contributors.html",
-    "href": "contributors.html",
-    "title": "Contributors",
-    "section": "",
-    "text": "About this sitefdasfdsfdsfdsfsd\n\nContributors"
+    "text": "Do you need help?\nEmail to ttezcan@csumb.edu"
   }
 ]
