@@ -1,0 +1,26 @@
+---
+title: "Step 1: Collect data"
+editor: visual
+toc: true
+toc-location: right
+---
+
+# Short form (7 questions)
+
+This survey directly aligns with [CSUMB's seven QR areas](https://drive.google.com/file/d/1eij-N3jRgmW2dth-U7Mz3qb-zrdcTRJk/view) and enables:
+
+1.  Reporting of both direct assessment scores (student proficiency) and indirect survey results (frequency of skill practice);
+
+2.  Comprehensive insight into students' QR experiences.
+
+[**Short Form**](https://docs.google.com/forms/d/1aBrbV3HHP3H0BtHCpIGuB6gijTdvvJ10P3CSFVgDAUE/copy)**:** Make a copy of the survey
+
+# **Standard Form (16 questions)**
+
+The inclusion of the additional questions in this survey is ideal for:
+
+1.  Evaluating QR skills across different content areas or ULOs;
+
+2.  Exploring how students use QR skills in practical contexts.
+
+[**Standard Form**](https://docs.google.com/forms/d/11HIsHVczdNi6eavAfnYY9XyesorkLVF4aKFUi3mSP5U/copy)**:** Make a copy of the survey

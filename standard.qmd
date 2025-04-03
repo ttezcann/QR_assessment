@@ -261,7 +261,7 @@ Never (1) / Infrequently (2) / Sometimes (3) / Frequently (4)",
     "[Example life] Please give an example of a time when you used \"quantitative reasoning\" in your daily life.
     
 Open-ended question"
-  ),   stringsAsFactors = FALSE)
+  ), stringsAsFactors = FALSE)
   
 ft <- flextable(codebook) %>%
   flextable::width(j = 1, width = 1.7) %>%  

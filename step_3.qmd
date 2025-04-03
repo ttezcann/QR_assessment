@@ -1,0 +1,64 @@
+---
+title: "Step 3: Download/upload data and other files to RStudio"
+editor: visual
+---
+
+# Download the data file
+
+1.  After the data collection process is completed, your data is ready to upload.
+
+2.  Go to the "Responses" tab of the Google Form.
+
+3.  Click the three dots (next to "Link to Sheets") ➜ "Download responses (.csv)"
+
+    ![](images/download csv.png){width="471"}
+
+4.  The file will be downloaded as a .zip folder.
+
+5.  Double-click that folder to extract the file.
+
+6.  Rename the file name to “df.csv” (Make sure it's not "df.csv.csv").
+
+    ![](images/rename csv.png){width="303"}
+
+# Download the Quarto file
+
+Click to download the Quarto file:
+
+1.  [Short form Quarto file](https://drive.google.com/open?id=10E0hVOLbltQPagBdexAnbxYopin2W7dU&usp=drive_fs)
+
+**OR**
+
+2.  [Standard form Quarto file](https://drive.google.com/open?id=10E3l1oQzI22ULuFnF8iRpAu0O0g_LboB&usp=drive_fs)
+
+# Download the Word Template file
+
+Click to download the Word Template file:
+
+[QR_Report_Template.docx](https://docs.google.com/document/d/1nx05vCVoUEAj6lLB_q4pgJ6cLTpVutmB/edit?usp=drive_link&rtpof=true&sd=true)
+
+# Upload these files to RStudio
+
+1.  Upload these three files to RStudio one by one
+
+![](images/upload files.png)
+
+2.  You should see three files under the "Files" tab.
+
+    Click on "standard.qmd" or "short.qmd" (the version you use):
+
+![](images/three files uploaded-01.png)
+
+3.  Clicking on the .qmd file will open it on RStudio.
+
+    Click "Run" ➜ "Run All.
+
+![](images/run all-01.png)
+
+4.  This process will install all the packages. For the first time the codes are run, this process may take **15-20 minutes** or shorter depending on your internet connection. You will see a STOP sign and codes are running in the console. You should wait until the “STOP” sign in the console disappears and no more code is running in the console.
+
+![](images/codes running.png)
+
+5.  During this process, if you see the pop-up window above (Updating Loaded Packages), click “No” every single time.
+
+![](images/updating loaded packages warning.png){width="369"}

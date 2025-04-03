@@ -1,1 +1,26 @@
 /* css styles */
+.quarto-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  .quarto-sidebar .nav-link {
+    display: block;
+    padding: 10px 0;
+    color: #333;
+  }
+  .quarto-sidebar .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  .quarto-page {
+    margin-left: 220px;
+    padding: 20px;
+  }
+.report-iframe {
+  overflow: auto;
+}

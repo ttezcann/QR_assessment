@@ -2,13 +2,42 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "QR Assessment Website"
+  title: "QR Indirect Assessment Guide"
+  back-to-top-navigation: false
+  page-navigation: true
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - contributors.qmd
+      - help.qmd
+  sidebar:
+    style: "docked"
+    background: "light"
+    border: true
+    search: true
+    pinned: true
+    alignment: "center"
+    contents:
+    - section: "Steps"
+      contents:
+        - step_1.qmd
+        - step_2.qmd
+        - step_3.qmd
+        - step_4.qmd
+    - text: "---"
+    - section: "Report"
+      contents:
+        - href: standard.qmd
+          text: Standard (HTML format)
+        - href: word_format_long.qmd
+          text: Standard (Word format)
+        - href: short.qmd
+          text: Short (HTML format)
+        - href: word_format_short.qmd
+          text: Short (Word format)
 format:
   html:
-    theme: lumen
-    css: styles.css
+    theme: cosmo
+    style: styles.css

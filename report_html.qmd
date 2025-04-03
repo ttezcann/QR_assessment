@@ -1,0 +1,16 @@
+---
+title: "Report in HTML format"
+page-layout: full
+sidebar: false
+navbar: false
+editor: visual
+format:
+  html:
+    toc: false
+    theme: cosmo
+    style: styles.css
+---
+
+```{=html}
+<iframe src="standard.qmd" width="120%" height="1200px" style="border:none;"></iframe>
+```

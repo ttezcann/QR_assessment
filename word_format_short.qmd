@@ -1,0 +1,6 @@
+---
+title: "Word format"
+editor: visual
+---
+
+[📄 Download the Word Version (Short)](https://docs.google.com/document/d/10Gx2ILner8steEYKciedIBE-A3Bi-ZCT/export?format=docx)

@@ -1,0 +1,28 @@
+---
+title: "Step 2: Create an RStudio Cloud account"
+editor: visual
+---
+
+The page will show how to create a RStudio Cloud account. You will be able to use this software on your browser.
+
+1.  Go to <https://posit.cloud/plans/free> (make sure you choose “free account”).
+
+2.  Click on “Sign up.”
+
+3.  Put a password (at least 10 characters, with upper and lower case letters, a number, and a special character).
+
+4.  Type your first and last name.
+
+5.  When you click “Sign up” you will receive an email for verification.
+
+6.  Go to your email inbox and click “Verify.”
+
+7.  You will be directed to Go to <https://posit.cloud>. If not, click on the link.
+
+8.  Click on “New project” ➜ “New RStudio Project.”
+
+9.  Wait for a minute or so until you see the screen below.
+
+10. Click on “Untitled Project” (see highlighted part \# 1) and type “Indirect Assessment in QR.”
+
+![](images/rstudio screen.png)

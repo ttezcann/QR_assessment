@@ -2,31 +2,25 @@
 project:
   type: website
   output-dir: docs
-
 website:
-  title: QR Indirect Assessment
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - dddddd.qmd
-      - href: standard.qmd
-        text: Standard Report
-  format:
+  title: Home
+format:
   html:
-    theme: lumen
-    css: styles.css
+    theme: cosmo
 ---
 
-dsadas ![](images/SCR-20250329-lmgj.png)
+# Home
 
-![](images/SCR-20250329-llmi.png)
+This site provides guidance on a survey tool to indirectly assess Quantitative Reasoning.
 
-To learn more abdout Quarto websites visit <https://quarto.org/docs/websites>.
+There are four steps:
 
-```{r}
-1 + 1
-```
+1.  [Collect data](step_1.qmd)
 
-git remote add origin git\@github.com:ttezcann/QR_assessment.git
+2.  [Create an RStudio Cloud account](step_2.qmd)
+
+3.  [Download/upload data and other files to RStudio](step_3.qmd)
+
+4.  [Organize the content and render](step_4.qmd)
+
+After completing these steps, RStudio (Quarto) will generate the report in both [HTML](standard.qmd) and [Word](word_format_long) formats.
