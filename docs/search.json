@@ -191,7 +191,7 @@
     "href": "step_4.html",
     "title": "Step 4: Organize the content and render",
     "section": "",
-    "text": "Render the content and download the Word document\n\nClick the arrow next to the “Render” ➜ “Render MS Word.”\n\n\n\nClick “Download file.”\n\nDelete any tables/figures you don’t want to use, and revise the interpretations accordingly.\nRender the content in HTML\nAlternatively, you could create an HTML document by making changes in the .qmd file.\n\nClick “Settings” ➜ “Preview in Viewer Pane.”\n\n\n\n\n\nMake changes in the .qmd file, such as deleting unwanted tables/graphs and adding your interpretations.\nClick the arrow next to the “Render” ➜ “Render HTML.”\n\nYou will see the content under the “Viewer” tab. If you want to view the HTML report in your browser, click “Show in new window.”",
+    "text": "Render the content and download the Word document\n\nClick the arrow next to the “Render” ➜ “Render MS Word.”\n\n\n\nClick “Download file.”\n\nDelete any tables/figures you don’t want to use, and revise the interpretations accordingly.\n\n\n\nRender the content in HTML\nAlternatively, you could create an HTML document by making changes in the .qmd file.\n\nClick “Settings” ➜ “Preview in Viewer Pane.”\n\n\n\nMake changes in the .qmd file, such as deleting unwanted tables/graphs and adding your interpretations.\nClick the arrow next to the “Render” ➜ “Render HTML.”\n\nYou will see the content under the “Viewer” tab. If you want to view the HTML report in your browser, click “Show in new window.”",
     "crumbs": [
       "Home",
       "Steps",

@@ -19,17 +19,15 @@ toc-location: right
 
     ![](images/download%20file.png)
 
-3.  Delete any tables/figures you don't want to use, and revise the interpretations accordingly.
+    Delete any tables/figures you don't want to use, and revise the interpretations accordingly.
 
-    # Render the content in HTML
+# Render the content in HTML
 
-    Alternatively, you could create an HTML document by making changes in the .qmd file.
+Alternatively, you could create an HTML document by making changes in the .qmd file.
 
-    1.  Click "Settings" ➜ "Preview in Viewer Pane."
+1.  Click "Settings" ➜ "Preview in Viewer Pane."
 
-    ![](images/render%20settings-01.png){width="505"}
-
-<!-- -->
+![](images/render%20settings-01.png){width="505"}
 
 2.  Make changes in the .qmd file, such as deleting unwanted tables/graphs and adding your interpretations.
 
