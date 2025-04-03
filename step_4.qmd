@@ -1,21 +1,23 @@
 ---
 title: "Step 4: Organize the content and render"
 editor: visual
+toc: true
+toc-location: right
 ---
 
 # Render the content and download the Word document
 
-1.  Click the arrow next to the "Render" ➜ "Render MS Word"
+1.  Click the arrow next to the "Render" ➜ "Render MS Word."
 
     <div>
 
-    ![](images/render word.png)
+    ![](images/render%20word.png)
 
     </div>
 
-2.  Click "Download file"
+2.  Click "Download file."
 
-    ![](images/download file.png)
+    ![](images/download%20file.png)
 
 3.  Delete any tables/figures you don't want to use, and revise the interpretations accordingly.
 
@@ -25,17 +27,16 @@ editor: visual
 
     1.  Click "Settings" ➜ "Preview in Viewer Pane."
 
-    ![](images/render settings-01.png){width="505"}
+    ![](images/render%20settings-01.png){width="505"}
 
-```{=html}
 <!-- -->
-```
+
 2.  Make changes in the .qmd file, such as deleting unwanted tables/graphs and adding your interpretations.
 
-    Click the arrow next to the "Render" ➜ "Render HTML"
+    Click the arrow next to the "Render" ➜ "Render HTML."
 
-    ![](images/render html.png)
+    ![](images/render%20html.png)
 
 3.  You will see the content under the "Viewer" tab. If you want to view the HTML report in your browser, click "Show in new window."
 
-    ![](images/show in new window.png){width="747"}
+    ![](images/show%20in%20new%20window.png){width="570"}

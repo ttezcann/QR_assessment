@@ -1,0 +1,38 @@
+---
+title: "Contributors"
+editor: visual
+toc: true
+toc-location: right
+---
+
+-   George Beckham[^1]
+
+-   Gabriel Chavez[^2]
+
+-   Jennifer Clinkenbeard[^3]
+
+-   Jennifer Duggan[^4]
+
+-   Celine Pinet[^5]
+
+-   Sumadhur Shakya[^6]
+
+-   Tolga Tezcan[^7]
+
+-   Christina Zhang[^8]
+
+[^1]: California State University, Monterey Bay, Kinesiology
+
+[^2]: California State University, Monterey Bay, Mathematics & Statistics
+
+[^3]: California State University, Monterey Bay, Mathematics & Statistics
+
+[^4]: California State University, Monterey Bay, Applied Environmental Science
+
+[^5]: California State University, Monterey Bay, Psychology
+
+[^6]: California State University, Monterey Bay, Business
+
+[^7]: California State University, Monterey Bay, Sociology
+
+[^8]: California State University, Monterey Bay, Business

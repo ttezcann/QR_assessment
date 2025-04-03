@@ -1,6 +1,8 @@
 ---
 title: "Step 2: Create an RStudio Cloud account"
 editor: visual
+toc: true
+toc-location: right
 ---
 
 The page will show how to create a RStudio Cloud account. You will be able to use this software on your browser.
@@ -25,4 +27,4 @@ The page will show how to create a RStudio Cloud account. You will be able to us
 
 10. Click on “Untitled Project” (see highlighted part \# 1) and type “Indirect Assessment in QR.”
 
-![](images/rstudio screen.png)
+![](images/rstudio%20screen.png){width="620"}

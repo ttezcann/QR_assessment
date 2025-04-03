@@ -1,6 +1,8 @@
 ---
 title: "Step 3: Download/upload data and other files to RStudio"
 editor: visual
+toc: true
+toc-location: right
 ---
 
 # Download the data file
@@ -11,7 +13,7 @@ editor: visual
 
 3.  Click the three dots (next to "Link to Sheets") ➜ "Download responses (.csv)"
 
-    ![](images/download csv.png){width="471"}
+    ![](images/download%20csv.png){width="471"}
 
 4.  The file will be downloaded as a .zip folder.
 
@@ -19,7 +21,7 @@ editor: visual
 
 6.  Rename the file name to “df.csv” (Make sure it's not "df.csv.csv").
 
-    ![](images/rename csv.png){width="303"}
+    ![](images/rename%20csv.png){width="303"}
 
 # Download the Quarto file
 
@@ -39,26 +41,28 @@ Click to download the Word Template file:
 
 # Upload these files to RStudio
 
-1.  Upload these three files to RStudio one by one
+1.  Upload these three files (df.csv, .qmd, and the Word Template files) to RStudio one by one.
 
-![](images/upload files.png)
+![](images/upload%20files.png){width="601"}
 
-2.  You should see three files under the "Files" tab.
+2.  You will see three files under the "Files" tab.
 
     Click on "standard.qmd" or "short.qmd" (the version you use):
 
-![](images/three files uploaded-01.png)
+![](images/three%20files%20uploaded-01.png){width="600"}
 
 3.  Clicking on the .qmd file will open it on RStudio.
 
     Click "Run" ➜ "Run All.
 
-![](images/run all-01.png)
+![](images/run%20all-01.png){width="596"}
 
-4.  This process will install all the packages. For the first time the codes are run, this process may take **15-20 minutes** or shorter depending on your internet connection. You will see a STOP sign and codes are running in the console. You should wait until the “STOP” sign in the console disappears and no more code is running in the console.
+4.  This process will install all the packages. For the first time the codes are run, this process may take **15-20 minutes** or shorter depending on your internet connection.
 
-![](images/codes running.png)
+    You will see a STOP sign and codes are running in the console. You should wait until the “STOP” sign in the console disappears and no more code is running in the console.
+
+![](images/codes%20running.png){width="595"}
 
 5.  During this process, if you see the pop-up window above (Updating Loaded Packages), click “No” every single time.
 
-![](images/updating loaded packages warning.png){width="369"}
+![](images/updating%20loaded%20packages%20warning.png){width="307"}

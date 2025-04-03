@@ -5,4 +5,4 @@ editor: visual
 
 # Do you need help?
 
-Email to [ttezcan\@csumb.edu](ttezcan@csumb.edu)
+Email [ttezcan\@csumb.edu](ttezcan@csumb.edu)
