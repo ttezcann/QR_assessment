@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Step 4: Organize the content and render – QR Indirect Assessment Guide</title>
+<title>Step 3: Download/upload data and other files to RStudio – QR Indirect Assessment Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./step_3.html" rel="prev">
+<link href="./step_4.html" rel="next">
+<link href="./step_2.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -110,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./step_1.html">Steps</a></li><li class="breadcrumb-item"><a href="./step_4.html">Step 4: Organize the content and render</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./step_1.html">Steps</a></li><li class="breadcrumb-item"><a href="./step_3.html">Step 3: Download/upload data and other files to RStudio</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -153,13 +154,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./step_3.html" class="sidebar-item-text sidebar-link">
+  <a href="./step_3.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Step 3: Download/upload data and other files to RStudio</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./step_4.html" class="sidebar-item-text sidebar-link active">
+  <a href="./step_4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Step 4: Organize the content and render</span></a>
   </div>
 </li>
@@ -211,17 +212,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#render-the-content-and-download-the-word-document" id="toc-render-the-content-and-download-the-word-document" class="nav-link active" data-scroll-target="#render-the-content-and-download-the-word-document">Render the content and download the Word document</a></li>
-  <li><a href="#render-the-content-in-html" id="toc-render-the-content-in-html" class="nav-link" data-scroll-target="#render-the-content-in-html">Render the content in HTML</a></li>
+  <li><a href="#download-the-data-file" id="toc-download-the-data-file" class="nav-link active" data-scroll-target="#download-the-data-file">Download the data file</a></li>
+  <li><a href="#download-the-quarto-file" id="toc-download-the-quarto-file" class="nav-link" data-scroll-target="#download-the-quarto-file">Download the Quarto file</a></li>
+  <li><a href="#download-the-word-template-file" id="toc-download-the-word-template-file" class="nav-link" data-scroll-target="#download-the-word-template-file">Download the Word Template file</a></li>
+  <li><a href="#upload-these-files-to-rstudio" id="toc-upload-these-files-to-rstudio" class="nav-link" data-scroll-target="#upload-these-files-to-rstudio">Upload these files to RStudio</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./step_1.html">Steps</a></li><li class="breadcrumb-item"><a href="./step_4.html">Step 4: Organize the content and render</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./step_1.html">Steps</a></li><li class="breadcrumb-item"><a href="./step_3.html">Step 3: Download/upload data and other files to RStudio</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Step 4: Organize the content and render</h1>
+<h1 class="title">Step 3: Download/upload data and other files to RStudio</h1>
 </div>
 
 
@@ -238,32 +241,60 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="render-the-content-and-download-the-word-document" class="level1">
-<h1>Render the content and download the Word document</h1>
+<section id="download-the-data-file" class="level1">
+<h1>Download the data file</h1>
 <ol type="1">
-<li><p>Click the arrow next to the “Render” ➜ “Render MS Word.”</p>
-<div>
-<p><img src="images/render word.png" class="img-fluid"></p>
-</div></li>
-<li><p>Click “Download file.”</p>
-<p><img src="images/download file.png" class="img-fluid"></p>
-<p>Delete any tables/figures you don’t want to use, and revise the interpretations accordingly.</p></li>
+<li><p>After the data collection process is completed, your data is ready to upload.</p></li>
+<li><p>Go to the “Responses” tab of the Google Form.</p></li>
+<li><p>Click the three dots (next to “Link to Sheets”) ➜ “Download responses (.csv)”</p>
+<p><img src="images/download csv.png" class="img-fluid" width="471"></p></li>
+<li><p>The file will be downloaded as a .zip folder.</p></li>
+<li><p>Double-click that folder to extract the file.</p></li>
+<li><p>Rename the file name to “df.csv” (Make sure it’s not “df.csv.csv”).</p>
+<p><img src="images/rename csv.png" class="img-fluid" width="303"></p></li>
 </ol>
 </section>
-<section id="render-the-content-in-html" class="level1">
-<h1>Render the content in HTML</h1>
-<p>Alternatively, you could create an HTML document by making changes in the .qmd file.</p>
+<section id="download-the-quarto-file" class="level1">
+<h1>Download the Quarto file</h1>
+<p>Click to download the Quarto file:</p>
 <ol type="1">
-<li>Click “Settings” ➜ “Preview in Viewer Pane.”</li>
+<li><a href="https://drive.google.com/open?id=10E0hVOLbltQPagBdexAnbxYopin2W7dU&amp;usp=drive_fs">Short form Quarto file</a></li>
 </ol>
-<p><img src="images/render settings-01.png" class="img-fluid" width="505"></p>
+<p><strong>OR</strong></p>
 <ol start="2" type="1">
-<li><p>Make changes in the .qmd file, such as deleting unwanted tables/graphs and adding your interpretations.</p>
-<p>Click the arrow next to the “Render” ➜ “Render HTML.”</p>
-<p><img src="images/render html.png" class="img-fluid"></p></li>
-<li><p>You will see the content under the “Viewer” tab. If you want to view the HTML report in your browser, click “Show in new window.”</p>
-<p><img src="images/show in new window.png" class="img-fluid" width="570"></p></li>
+<li><a href="https://drive.google.com/open?id=10E3l1oQzI22ULuFnF8iRpAu0O0g_LboB&amp;usp=drive_fs">Standard form Quarto file</a></li>
 </ol>
+</section>
+<section id="download-the-word-template-file" class="level1">
+<h1>Download the Word Template file</h1>
+<p>Click to download the Word Template file:</p>
+<p><a href="https://docs.google.com/document/d/1nx05vCVoUEAj6lLB_q4pgJ6cLTpVutmB/edit?usp=drive_link&amp;rtpof=true&amp;sd=true">QR_Report_Template.docx</a></p>
+</section>
+<section id="upload-these-files-to-rstudio" class="level1">
+<h1>Upload these files to RStudio</h1>
+<ol type="1">
+<li>Upload these three files (df.csv, .qmd, and the Word Template files) to RStudio one by one.</li>
+</ol>
+<p><img src="images/upload files.png" class="img-fluid" width="601"></p>
+<ol start="2" type="1">
+<li><p>You will see three files under the “Files” tab.</p>
+<p>Click on “standard.qmd” or “short.qmd” (the version you use):</p></li>
+</ol>
+<p><img src="images/three files uploaded-01.png" class="img-fluid" width="600"></p>
+<ol start="3" type="1">
+<li><p>Clicking on the .qmd file will open it on RStudio.</p>
+<p>Click “Run” ➜ “Run All.</p></li>
+</ol>
+<p><img src="images/run all-01.png" class="img-fluid" width="596"></p>
+<ol start="4" type="1">
+<li><p>This process will install all the packages. For the first time the codes are run, this process may take <strong>15-20 minutes</strong> or shorter depending on your internet connection.</p>
+<p>You will see a STOP sign and codes are running in the console. You should wait until the “STOP” sign in the console disappears and no more code is running in the console.</p></li>
+</ol>
+<p><img src="images/codes running.png" class="img-fluid" width="595"></p>
+<ol start="5" type="1">
+<li>During this process, if you see the pop-up window above (Updating Loaded Packages), click “No” every single time.</li>
+</ol>
+<p><img src="images/updating loaded packages warning.png" class="img-fluid" width="307"></p>
 
 
 </section>
@@ -688,11 +719,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./step_3.html" class="pagination-link" aria-label="Step 3: Download/upload data and other files to RStudio">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Step 3: Download/upload data and other files to RStudio</span>
+      <a href="./step_2.html" class="pagination-link" aria-label="Step 2: Create an RStudio Cloud account">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Step 2: Create an RStudio Cloud account</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./step_4.html" class="pagination-link" aria-label="Step 4: Organize the content and render">
+        <span class="nav-page-text">Step 4: Organize the content and render</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
