@@ -41,3 +41,5 @@ format:
   html:
     theme: cosmo
     style: styles.css
+resources:
+  - CNAME
