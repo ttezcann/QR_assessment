@@ -226,13 +226,12 @@ The last three items received the least “frequently” responses display more 
 ### Figure 1. Frequencies of Core Quantitative Reasoning Skills
 
 ```{r frequency-graph-core, fig.width=11, fig.height=7}
-#| fig-cap: "Note 1: Alternative of the above table.<br>Note 2: The items are sorted by the responses that received the most 'frequently' responses."
+#| fig-cap: "Note: Alternative of the above table."
 
 value_labels <- c("1" = "Never", "2" = "Infrequently", "3" = "Sometimes", "4" = "Frequently")
 graph <- df_numeric %>%  
   select(all_of(qr_core_likert)) %>%  
   plot_stackfrq(
-    sort.frq = "last.desc", 
     coord.flip = TRUE, 
     geom.colors = "Blues", 
     show.total = FALSE,
@@ -333,30 +332,56 @@ ggplot(stats_df, aes(x = reorder(label, mean), y = mean)) +
 ## Figure 3. Correlation Matrix of All Variables
 
 ```{r correlation-matrix-core, fig.width=18, fig.height=15}
-#| fig-cap: "Note: Bottom-left cells show scatterplots; diagonal cells show variable distributions. Top-right values are Pearson *r* coefficients. Correlation strength: weak (|r| < 0.3), moderate (0.3 < |r| < 0.5), strong (|r| > 0.5). * p < .05, ** p < .01, *** p < .001."
+#| fig-cap: "Note: Bottom-left cells show scatterplots; diagonal cells show variable distributions. Top-right values are Pearson *r* coefficients. Correlation strength: weak (|r| < 0.3), moderate (0.3 < |r| < 0.5), strong (|r| > 0.5). * p < .05, ** p < .01, *** p < .001. Plot may be simplified, or variables/smoothers removed, due to limited sample size."
 
-df_pairs <- df_numeric[, c("q1_methodology", "q2_calculation", "q3_visual_representation", 
-                           "q4_interpretation", "q5_evaluation", "q6_coherence_purpose", 
-                           "q7_reasonableness"
-                           )]
-names(df_pairs) <- unlist(shortlabels[names(df_pairs)])
+df_pairs_column_names <- intersect(
+  c("q1_methodology", "q2_calculation", "q3_visual_representation", 
+    "q4_interpretation", "q5_evaluation", "q6_coherence_purpose", 
+    "q7_reasonableness"),
+  names(df_numeric)
+)
 
-par(mar = c(6, 5, 4, 2) + 0.1)
+if (length(df_pairs_column_names) >= 2) {
+  df_pairs_candidate <- df_numeric[, df_pairs_column_names, drop = FALSE]
+  
+  valid_columns_selector <- vapply(df_pairs_candidate, function(col_data) {
+    num_non_na_values <- sum(!is.na(col_data))
+    variance_of_non_na <- var(na.omit(col_data))
+    !(!is.numeric(col_data) || num_non_na_values < 2 || is.na(variance_of_non_na) || variance_of_non_na == 0)
+  }, logical(1))
+  
+  df_pairs <- df_pairs_candidate[, valid_columns_selector, drop = FALSE]
 
-pairs.panels(
-  df_pairs,
-  ellipses       = FALSE,
-  scale          = FALSE,
-  show.points    = FALSE,
-  stars          = TRUE,
-  ci             = TRUE,  
-  cex.labels     = 1.9,
-  cex.cor        = 1.2,
-  hist.col       = "black", 
-  lm.col         = "black", 
-  cor.col        = "black",
-  col            = "black"
-  )
+  if (ncol(df_pairs) >= 2 && nrow(df_pairs) > 0) {
+    new_plot_names <- unlist(shortlabels[names(df_pairs)])
+    if (length(new_plot_names) == ncol(df_pairs) && !any(is.na(new_plot_names))) {
+      names(df_pairs) <- new_plot_names
+    }
+
+    original_par_settings <- par(mar = c(6, 5, 4, 2) + 0.1, no.readonly = TRUE)
+    on.exit(par(original_par_settings))
+
+    suppressWarnings({
+      psych::pairs.panels(
+        df_pairs,
+        smoother       = FALSE, 
+        lm             = FALSE, 
+        ellipses       = FALSE,
+        scale          = FALSE,
+        show.points    = FALSE, 
+        stars          = TRUE,
+        ci             = TRUE,  
+        cex.labels     = 0.85,
+        cex.cor        = 1.2,
+        hist.col       = "black", 
+        cor.col        = "black",
+        col            = "black",
+        jiggle         = TRUE, 
+        factor         = 0.1   
+      )
+    })
+  }
+}
 ```
 
 **Figure 9** presents the correlation matrix of all variables.
@@ -488,4 +513,3 @@ tbl_flex
 A linear regression was conducted to identify the factors that influence students’ ability to construct a single, coherent argument using several conclusions based on quantitative evidence—referred to as "Coherence/Purpose." This item received the lowest "frequently" responses at 34.2%, as noted in prior sections. Note that all variables were mean-centered prior to analyses to minimize multicollinearity.
 
 The results reveal that four skills significantly influence the ability to construct coherent quantitative arguments. Specifically, the skill of describing the methods used to solve a quantitative problem and justifying their appropriateness increases the "Coherence/Purpose" score by 0.21 points on a 1-to-4 scale. Similarly, the ability to reach conclusions based on one’s own analysis of numerical information, such as numbers, graphs, or statistics, increases the score by 0.24 points. The most substantial impact arises from deciding when a solution or inference is reasonable within a problem’s context, which increases the Coherence/Purpose score by 0.53 points. Finally, "Carried out calculations, either by hand or using software” shows a negative effect, decreasing the Coherence/Purpose score by 0.11 points. This effect is significant at a marginal level (*p* \< 0.10), a less reliable but noteworthy influence that warrants further exploration. The model explains approximately 51.1% of the variance in "Coherence/Purpose" (R² = 0.511).
-

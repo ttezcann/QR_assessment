@@ -201,7 +201,6 @@ The data was collected during the last two weeks of the Spring 2024 semester, re
 Variable names, full wording of the questions, short labels used in analyses, and the response sets are as follows.
 
 ```{r variables}
-
 codebook <- data.frame(
   variable_name = c(
     "q1_methodology", "q2_calculation", "q3_visual_representation", 
@@ -322,13 +321,12 @@ The last three items received the least “frequently” responses display more 
 ### Figure 1. Frequencies of Core Quantitative Reasoning Skills
 
 ```{r frequency-graph-core, fig.width=11, fig.height=7}
-#| fig-cap: "Note 1: Alternative of the above table.<br>Note 2: The items are sorted by the responses that received the most 'frequently' responses."
+#| fig-cap: "Note: Alternative of the above table."
 
 value_labels <- c("1" = "Never", "2" = "Infrequently", "3" = "Sometimes", "4" = "Frequently")
 graph <- df_numeric %>%  
   select(all_of(qr_core_likert)) %>%  
   plot_stackfrq(
-    sort.frq = "last.desc", 
     coord.flip = TRUE, 
     geom.colors = "Blues", 
     show.total = FALSE,
@@ -467,14 +465,13 @@ Regarding confidence in using numbers in everyday life, the majority of students
 ### Figure 3. Frequencies of Quantitative Reasoning Improvement and Confidence
 
 ```{r frequency-graph-improvement-confidence, fig.width=11, fig.height=5}
-#| fig-cap: "Note 1: Alternative of the above table.<br>Note 2: Different response scales are used: QR Improvement (1–4: None to Major improvement) and Confidence (1–4: Not at all confident to Very confident)."
+#| fig-cap: "Note: Alternative of the above table."
 
 value_labels <- c("1" = "1", "2" = "2", "3" = "3", "4" = "4")
 
 graph <- df_numeric %>%  
   select(all_of(qr_impr_conf)) %>%
   plot_stackfrq(
-    sort.frq = "last.desc", 
     coord.flip = TRUE, 
     geom.colors = "Blues", 
     show.total = FALSE,
@@ -515,7 +512,6 @@ if (length(qr_impr_conf) > 0) {
 
   tbl_flex
 }
-
 ```
 
 **Table 4** presents the descriptive statistics of student improvement and confidence measures. Students report high confidence in using numbers in everyday life (M = 3.21). This score is the highest among the three measures.
@@ -612,24 +608,40 @@ These results show that quantitative reasoning skills are most frequently applie
 
 ```{r frequency-graph-engagement, fig.width=9, fig.height=5}
 #| fig-cap: "Note: Alternative of the above table."
-value_labels <- c("1" = "Never", "2" = "Infrequently", "3" = "Sometimes", "4" = "Frequently")
+value_labels_fig5 <- c("1" = "Never", "2" = "Infrequently", "3" = "Sometimes", "4" = "Frequently")
 
-graph <- df_numeric %>%  
-    select(all_of(frq_qr_eng)) %>%
-  plot_stackfrq(
-    sort.frq = "last.desc", 
-    coord.flip = TRUE, 
-    geom.colors = "Blues", 
-    show.total = FALSE,
-    legend.labels = value_labels,
-    axis.labels = shortlabels[frq_qr_eng]
-  )
-graph + theme(
-  axis.text.x = element_text(size=13),  
-  axis.text.y = element_text(size=13),  
-  plot.title = element_text(size=13),  
-  legend.text = element_text(size=13),
-  legend.position = "bottom")
+selected_data_numeric_fig5 <- df_numeric %>%  
+    dplyr::select(dplyr::all_of(frq_qr_eng))
+
+if (ncol(selected_data_numeric_fig5) > 0 && nrow(selected_data_numeric_fig5) > 0) {
+  
+  valid_cols_indices_fig5 <- vapply(selected_data_numeric_fig5, function(col) {
+    is.numeric(col) && sum(!is.na(col)) > 0 
+  }, logical(1))
+  
+  data_to_plot_fig5 <- selected_data_numeric_fig5[, valid_cols_indices_fig5, drop = FALSE]
+
+  if (ncol(data_to_plot_fig5) > 0) {
+    graph <- sjPlot::plot_stackfrq(
+      data_to_plot_fig5,
+      coord.flip = TRUE, 
+      geom.colors = "Blues", 
+      show.total = FALSE,
+      legend.labels = value_labels_fig5,
+      axis.labels = unlist(shortlabels[names(data_to_plot_fig5)])
+    )
+    
+    print(graph + 
+      ggplot2::theme(
+        axis.text.x = ggplot2::element_text(size=13),  
+        axis.text.y = ggplot2::element_text(size=13),  
+        plot.title = ggplot2::element_text(size=13),  
+        legend.text = ggplot2::element_text(size=13),
+        legend.position = "bottom"
+      )
+    )
+  }
+}
 ```
 
 ### Table 6. Descriptive Statistics of Quantitative Reasoning Engagement
@@ -759,16 +771,15 @@ tbl_flex
 value_labels <- c("1" = "1", "2" = "2", "3" = "3", "4" = "4")
 
 graph <- df_numeric %>%  
-  select(all_of(c(qr_core_likert, qr_impr_conf, frq_qr_eng))) %>%  
+  select(all_of(c(frq_qr_eng, qr_impr_conf, qr_core_likert))) %>%  
   plot_stackfrq(
-    sort.frq = "last.desc", 
     coord.flip = TRUE, 
     geom.colors = "Blues", 
     show.total = FALSE,
     legend.labels = value_labels,
-    axis.labels = c(shortlabels[qr_core_likert], 
+    axis.labels = c(shortlabels[frq_qr_eng], 
                    shortlabels[qr_impr_conf], 
-                   shortlabels[frq_qr_eng]))
+                   shortlabels[qr_core_likert]))
 
 graph + theme(
   axis.text.x = element_text(size=14),  
@@ -877,31 +888,57 @@ ggplot(stats_df, aes(x = reorder(label, mean), y = mean, fill = category)) +
 ## Figure 9. Correlation Matrix of All Variables
 
 ```{r correlation-matrix-core, fig.width=18, fig.height=15}
-#| fig-cap: "Note: Bottom-left cells show scatterplots; diagonal cells show variable distributions. Top-right values are Pearson *r* coefficients. Correlation strength: weak (|r| < 0.3), moderate (0.3 < |r| < 0.5), strong (|r| > 0.5). * p < .05, ** p < .01, *** p < .001."
+#| fig-cap: "Note: Bottom-left cells show scatterplots; diagonal cells show variable distributions. Top-right values are Pearson *r* coefficients. Correlation strength: weak (|r| < 0.3), moderate (0.3 < |r| < 0.5), strong (|r| > 0.5). * p < .05, ** p < .01, *** p < .001. Plot may be simplified, or variables/smoothers removed, due to limited sample size."
 
-df_pairs <- df_numeric[, c("q1_methodology", "q2_calculation", "q3_visual_representation", 
-                           "q4_interpretation", "q5_evaluation", "q6_coherence_purpose", 
-                           "q7_reasonableness", "q9_improve_general", "q10_improve_realworld", "q11_confidence",
-                           "q8_used_qr", "q13_freq_calculations", "q14_freq_graphs_tables", "q15_freq_course_situations"
-                           )]
-names(df_pairs) <- unlist(shortlabels[names(df_pairs)])
+df_pairs_column_names <- intersect(
+  c("q1_methodology", "q2_calculation", "q3_visual_representation", 
+    "q4_interpretation", "q5_evaluation", "q6_coherence_purpose", 
+    "q7_reasonableness", "q9_improve_general", "q10_improve_realworld", "q11_confidence",
+    "q8_used_qr", "q13_freq_calculations", "q14_freq_graphs_tables", "q15_freq_course_situations"),
+  names(df_numeric)
+)
 
-par(mar = c(6, 5, 4, 2) + 0.1)
+if (length(df_pairs_column_names) >= 2) {
+  df_pairs_candidate <- df_numeric[, df_pairs_column_names, drop = FALSE]
+  
+  valid_columns_selector <- vapply(df_pairs_candidate, function(col_data) {
+    num_non_na_values <- sum(!is.na(col_data))
+    variance_of_non_na <- var(na.omit(col_data))
+    !(!is.numeric(col_data) || num_non_na_values < 2 || is.na(variance_of_non_na) || variance_of_non_na == 0)
+  }, logical(1))
+  
+  df_pairs <- df_pairs_candidate[, valid_columns_selector, drop = FALSE]
 
-pairs.panels(
-  df_pairs,
-  ellipses       = FALSE,
-  scale          = FALSE,
-  show.points    = FALSE,
-  stars          = TRUE,
-  ci             = TRUE,  
-  cex.labels     = 0.85,
-  cex.cor        = 1.2,
-  hist.col       = "black", 
-  lm.col         = "black", 
-  cor.col        = "black",
-  col            = "black"
-  )
+  if (ncol(df_pairs) >= 2 && nrow(df_pairs) > 0) {
+    new_plot_names <- unlist(shortlabels[names(df_pairs)])
+    if (length(new_plot_names) == ncol(df_pairs) && !any(is.na(new_plot_names))) {
+      names(df_pairs) <- new_plot_names
+    }
+
+    original_par_settings <- par(mar = c(6, 5, 4, 2) + 0.1, no.readonly = TRUE)
+    on.exit(par(original_par_settings))
+
+    suppressWarnings({
+      psych::pairs.panels(
+        df_pairs,
+        smoother       = FALSE, 
+        lm             = FALSE, 
+        ellipses       = FALSE,
+        scale          = FALSE,
+        show.points    = FALSE, 
+        stars          = TRUE,
+        ci             = TRUE,  
+        cex.labels     = 0.85,
+        cex.cor        = 1.2,
+        hist.col       = "black", 
+        cor.col        = "black",
+        col            = "black",
+        jiggle         = TRUE, 
+        factor         = 0.1   
+      )
+    })
+  }
+}
 ```
 
 **Figure 9** presents the correlation matrix of all variables.
